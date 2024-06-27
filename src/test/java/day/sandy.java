@@ -10,6 +10,8 @@ public class sandy {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.youtube.com");
 		
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
 
 	}
 
